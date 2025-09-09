@@ -2,6 +2,8 @@
 
 Este projeto implementa um agente inteligente no n8n que permite ao usuário agendar, consultar e cancelar compromissos diretamente pelo Telegram, com sincronização automática no Google Calendar.
 
+----------------------------------------------------------------------------------------------------------------
+
 🚀 Funcionalidades
 
 📲 Integração com Telegram: o usuário interage com o agente em tempo real.
@@ -9,6 +11,8 @@ Este projeto implementa um agente inteligente no n8n que permite ao usuário age
 🤖 IA com OpenAI: processamento de linguagem natural para entender comandos (ex.: "Marque uma consulta amanhã às 15h").
 
 🧠 Memória de Conversa: histórico curto mantido para melhor contextualização.
+
+----------------------------------------------------------------------------------------------------------------
 
 📅 Integração com Google Calendar:
 
@@ -19,6 +23,8 @@ Consultar compromissos existentes.
 Cancelar eventos.
 
 💬 Resposta automática no Telegram confirmando as operações.
+
+----------------------------------------------------------------------------------------------------------------
 
 🛠️ Tecnologias
 
@@ -31,6 +37,8 @@ Telegram Bot API	Canal de comunicação com o usuário
 OpenAI (gpt-4o-mini)	Interpretação dos comandos em linguagem natural
 
 Google Calendar API	Gestão de eventos (criar, listar, deletar)
+
+----------------------------------------------------------------------------------------------------------------
 
 📂 Estrutura do Fluxo
 
@@ -47,6 +55,8 @@ Listar eventos
 Deletar evento
 
 Send Message (Telegram) → Retorna a confirmação ao usuário.
+
+----------------------------------------------------------------------------------------------------------------
 
 🎯 Casos de Uso
 
